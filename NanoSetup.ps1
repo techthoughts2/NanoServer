@@ -42,7 +42,7 @@ Get-NetAdapterBinding -ComponentID 'ms_tcpip6' | disable-NetAdapterBinding -Comp
 Get-NetAdapter | ? { $_.status -eq "Disconnected" } | Disable-NetAdapter -Confirm:$false
 
 #join the domain
-djoin /requestodj /loadfile c:\temp\blob /windowspath c:\windows /localos
+djoin /requestodj /loadfile c:\temp\odjblob /windowspath c:\windows /localos
 
 #reboot
 shutdown /r /t 5

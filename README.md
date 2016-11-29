@@ -14,4 +14,4 @@ Collection of various Nano scripts:
 
 ### Notes
 
-http://techthoughts.info
+http://techthoughts.info/custom-nano-deployment-setupcomplete
